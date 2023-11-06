@@ -55,8 +55,8 @@ kwh-ny
 # forsøk på å legge til en ny rad med data fra bil-energi funksjonen
 
 
-sum-bil = sum(kwh-ny, "energi")
+sum-total = sum(kwh-ny, "energi")
 
-sum-bil
+sum-total
 
 bar-chart(kwh-ny, "komponent", "energi")
